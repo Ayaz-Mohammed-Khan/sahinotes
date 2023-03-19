@@ -343,7 +343,9 @@ input[type="checkbox"]:checked {
 	height: 18px;
 	clip-path: circle(46% at 50% 50%);
 }
-/*                            NotesPage                                     */
+
+/*     NotesPage       */
+
 .notes_page {
 	display: flex;
 }
@@ -353,6 +355,7 @@ input[type="checkbox"]:checked {
 }
 .notes_page_main {
 	width: 60%;
+	margin-top: 30px;
 }
 .main_expand {
 	width: 100%;
