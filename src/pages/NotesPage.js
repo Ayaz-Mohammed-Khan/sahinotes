@@ -27,15 +27,15 @@ const NotesPage = (props) => {
 		return (
 			<div>
 				<div className="aside_wrapper_1 container">
-					<img className="aside_w1_imgs" src={thumbsUpIcon}></img>
+					<img alt="" className="aside_w1_imgs" src={thumbsUpIcon}></img>
 					<p>28 Likes</p>
-					<img className="aside_w1_imgs" src={shareIcon}></img>
+					<img alt="" className="aside_w1_imgs" src={shareIcon}></img>
 					<p>Share</p>
-					<img className="three_dots" src={threeDots}></img>
+					<img alt="" className="three_dots" src={threeDots}></img>
 				</div>
 				<div className="aside_wrapper_2 container">
 					<div>
-						<img src={profilePic}></img>
+						<img alt="" src={profilePic}></img>
 						<div>
 							<h4>Ayaz Mohammed Khan</h4>
 							<p>GPA 10</p>
@@ -58,7 +58,7 @@ const NotesPage = (props) => {
 				<div className="container">
 					<h2>Resourses</h2>
 					<div className="aside_wrapper_3">
-						<img src={book1}></img>
+						<img alt="" src={book1}></img>
 						<div>
 							<strong>
 								Wheeler's Dental Anatomy, Physiology and Occlusion, 1st South
@@ -77,15 +77,20 @@ const NotesPage = (props) => {
 				<div className="main_container">
 					<div>
 						<Link to={"/"}>
-							<img className="main_arrow" src={arrowInverted}></img>
+							<img alt="" className="main_arrow" src={arrowInverted}></img>
 						</Link>
 						<h2>{props.title}</h2>
 					</div>
-					<img src={imageUrl}></img>
+					<img alt="" src={imageUrl}></img>
 				</div>
 			</main>
 			<aside className={aside_class}>
-				<img onClick={handler} className="aside_arrow" src={arrowUrl}></img>
+				<img
+					alt=""
+					onClick={handler}
+					className="aside_arrow"
+					src={arrowUrl}
+				></img>
 				{isAside && <Aside></Aside>}
 			</aside>
 		</div>
