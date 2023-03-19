@@ -204,7 +204,8 @@ body {
 }
 @media (max-width: 665px) {
 	.profile_details > button {
-		margin-left: 10px;
+		margin-left: 0px;
+		margin-right: 10px;
 		font-size: 0.65rem;
 	}
 	.profile_details {
@@ -215,7 +216,8 @@ body {
 		font-size: 0.8rem;
 	}
 	.profile_details > p {
-		margin: 10px;
+		margin-left: 40px;
+		margin-right: 10px;
 	}
 }
 
@@ -502,5 +504,10 @@ a {
 	}
 	.aside {
 		width: 100%;
+		font-size: 0.75rem;
+		height: 100%;
+	}
+	.aside_wrapper_3 > div > button {
+		font-size: 0.5rem;
 	}
 }
