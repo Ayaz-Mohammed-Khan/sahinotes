@@ -84,7 +84,7 @@ const NotesPage = (props) => {
 					<img alt="" src={imageUrl}></img>
 				</div>
 			</main>
-			<aside className={aside_class}>
+			<aside className={aside_class + " aside_mobile"}>
 				<img
 					alt=""
 					onClick={handler}

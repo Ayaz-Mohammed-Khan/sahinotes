@@ -487,3 +487,20 @@ a {
 	text-decoration: none;
 	color: black;
 }
+@media (max-width: 768px) {
+	.notes_page_main {
+		width: 100%;
+	}
+	main > div > img {
+		width: 90%;
+	}
+	.notes_page {
+		flex-direction: column;
+	}
+	.aside_arrow {
+		display: none;
+	}
+	.aside {
+		width: 100%;
+	}
+}
